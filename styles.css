@@ -93,5 +93,86 @@ header{
     border:none;
     border-radius: 50px;
     cursor:pointer;
-    transition: all 0.3s ease 0s;   
+    transition: all 0.3s ease 0s; 
+    margin-top: 15px;  
+}
+
+.card-texts{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:50px;
+    gap:10px;
+}
+.card-texts p{
+    color:rgb(145, 138, 138);
+    padding-top: 10px;
+}
+
+.card-logo{
+    padding-top:10px;
+    padding-left: auto;
+    height:30px;
+}
+.Text-title {
+    color:white;
+    font-size:20px;
+}
+.card-1{
+    border:white 2px solid;
+    border-radius: 15px;
+    width:200px;
+    height:250px;
+}
+.card-1 p{
+    color:rgb(248, 236, 236);
+    padding-left:20px;
+}
+
+.card-2 {
+    margin-top:30px;
+    background-color:rgba(0,136,169,1);
+    border-radius:25px;
+    width:200px;
+    height:250px;
+}
+.card-2 p{
+    color:rgb(248, 236, 236);
+    margin-left:20px;
+    background-color:rgba(0,136,169,1);
+    padding-top:15px;
+}
+
+.card-num{
+    background-color:rgba(0,136,169,1);
+    font-size:35px;
+}
+
+.card-logo-2{
+    padding-top:10px;
+    padding-left:20px;
+    height:30px;
+    background-color:rgba(0,136,169,1);
+}
+.card-num-1{
+    font-size:35px;
+}
+.dots{
+    size: 20px;
+}
+.last-text-1{
+    margin-top:50px;
+}
+
+.logo-date{
+    display:flex;
+}
+.logo-date p{
+    margin-left:90px;
+}
+.txt{
+    margin-top:30px;
+}
+
+.texts-2{
+    margin-top:50px;
 }
